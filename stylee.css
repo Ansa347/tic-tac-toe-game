@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #002451;
+}
+.box {
+  border: none;
+  height: 80px;
+  width: 80px;
+  background-color: #011536;
+  outline: none;
+}
+#box1 {
+  border-bottom: 2px solid darkgray;
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+#box2 {
+  border-left: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+#box4 {
+  border-bottom: 2px solid darkgray;
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+#box5 {
+  border-left: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+#box8 {
+  border-left: 2px solid darkgray;
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+#box3 {
+  border-left: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+#box6 {
+  border-left: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+#box7 {
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+#box9 {
+  border-left: 2px solid darkgray;
+  box-shadow: 1px 1px 4px #6fe5fe;
+}
+.mainbox {
+  margin-top: 3%;
+  margin-left: 4%;
+  height: 250px;
+}
+.line1 {
+  margin-top: 1%;
+}
+.mbox2 {
+  color: white;
+}
+.box {
+  font-size: 5rem;
+  color: #6fe5fe;
+  text-shadow: 1px 1px 4px #6fe5fe;
+  padding-left: 13%;
+  padding-bottom: 3%;
+}
+h1 {
+  text-shadow: 1px 1px 4px white;
+  font-size: 4rem;
+}
+@media only screen and (max-height: 767px) {
+  .mbox2 {
+    padding-left: 20%;
+    margin-top: 6%;
+  }
+}
+@media only screen and (max-height: 1041px) {
+  .mbox2 {
+    padding-left: 5%;
+    margin-top: 3%;
+  }
+}
